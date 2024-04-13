@@ -1,0 +1,15 @@
+Install Chrome browser
+You need to install python 3.9 (from the offical site)
+https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe
+install Git (from the Microsoft Store)
+Then install dlib windows wheel: https://github.com/shashankx86/dlib_compiled
+Also: install node : https://nodejs.org/en/download/
+Install the jupyter theme
+ `npm run build`
+ `jupyter labextension install .`
+
+Install Visual C++ Redistributable: https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+Download and install Microsoft Visual C++ Redistributable at https://aka.ms/vs/16/release/vc_redist.x64.exe
+
+Download the Linux kernel update packagehttps://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+You need to install Cmake : https://cmake.org/download/
