@@ -10,8 +10,8 @@ Learning Machines Workshop -- hands-on technical activities (modified for virtua
 - Change the directory to `cd LM_workshop_activities`
 - Start python virtual environment `virtualenv --python=python3 python`
 - Run activation script (re-run whenever entering a new terminal)
--- `source activate` <-- for Linux based system (e.g. MacOS)
--- `.\python\Scripts\activate` <-- for Windows
+  - `source activate` <-- for Linux based system (e.g. MacOS)
+  - `.\python\Scripts\activate` <-- for Windows
 - Install python  dependencies `pip install -r requirements.txt`
 
 
