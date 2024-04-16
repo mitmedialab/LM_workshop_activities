@@ -1,15 +1,22 @@
-Install Chrome browser
-You need to install python 3.9 (from the offical site)
-https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe
-install Git (from the Microsoft Store)
-Then install dlib windows wheel: https://github.com/shashankx86/dlib_compiled
-Also: install node : https://nodejs.org/en/download/
-Install the jupyter theme
- `npm run build`
- `jupyter labextension install .`
+# Before starting:
+- Have Python installed in your computer.
+- Install Microsoft Visual Studio C++ Build Tools for Windows from this website: https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022
+- Install CMake from this website (choose windows x64 installer) : https://cmake.org/download/
+- When CMake is finished installing, open up the msi file, and select "yes" to making CMake a PATH variable
+- Open a new Windows terminal
+- pip install virtualenv
 
-Install Visual C++ Redistributable: https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
-Download and install Microsoft Visual C++ Redistributable at https://aka.ms/vs/16/release/vc_redist.x64.exe
 
-Download the Linux kernel update packagehttps://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
-You need to install Cmake : https://cmake.org/download/
+# Installing the repo:
+- git clone https://github.com/mitmedialab/LM_workshop_activities.git (you can this repository in the folder you want)
+- cd LM_workshop_activities
+- virtualenv —python=python3 python (if you run this once, you don't have to run it again in other times you access this repository/ folder)
+- .\python\Scripts\activate (to run the virtual environment since source activate is for unix)
+- pip install -r requirements.txt
+
+
+# To run the repo every time:
+In Windows native terminal do the following:
+- cd into LM_workshop_activities
+- .\python\Scripts\activate
+To run certain sessions, follow the README instructions in each session folder
